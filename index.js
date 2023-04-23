@@ -88,7 +88,7 @@ function clearForm() {
       ${tableHeader}
       ${tableBody}
     </table>
-  <p>価格 ÷（個数 × メートル × ダブル）= 1mの金額</p>
+  <p>価格 ÷（個数 × 長さ × タイプ）= 1mの金額</p>
     <div id="form-buttons">
     <button id="clear-all-button" onclick="clearForm()">結果をクリア</button>
   </div>
