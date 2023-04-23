@@ -132,10 +132,6 @@ input, select {
   </section>
 
   <p id="result"></p>
-
-  <!-- <div id="form-buttons">
-    <button id="clear-all-button" onclick="clearForm()">結果をクリア</button>
-  </div> -->
   <p id="result"></p>
 
   <script>
@@ -247,32 +243,6 @@ function moveToNextOnEnter(event) {
     }
   }
 }
-
-
-// function moveToNextInput(event) {
-//       const target = event.target;
-//       const maxLength = parseInt(target.maxLength);
-//       const currentLength = target.value.length;
-
-//       if (currentLength >= maxLength) {
-//         const form = target.form;
-//         const index = Array.prototype.indexOf.call(form, target);
-//         form.elements[index + 1].focus();
-//       }
-//     }
-
-// function checkMaxLength(event) {
-//   const target = event.target;
-//   const maxLength = parseInt(target.getAttribute('maxlength'));
-//   const currentValue = target.value;
-
-//   if (currentValue.length > maxLength) {
-//     target.value = currentValue.slice(0, maxLength);
-//   }
-// }
-
-
-
 </script>
 </body>
 
